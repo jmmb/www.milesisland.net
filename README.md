@@ -1,1 +1,1 @@
-# www.twin-season.com
+Use the gh-pages branch.
