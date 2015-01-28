@@ -1,0 +1,236 @@
+/* Override mothership CSS general settings */
+
+body {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin: 30px 0;
+}
+
+.breadcrumb {
+	display: none;
+}
+
+div.siteinfo img {
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+h1 {
+	font-size: 1.7em;
+	margin: 0 0;
+}
+
+a, a:link, a:visited, a:active {
+	color: #f58b02;
+}
+
+/* main content styling */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #808080;
+	padding-left: 10px;
+}
+
+#main-content {
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#main-content h1 {
+	padding-top: 30px;
+}
+
+#main-content p {
+	padding-left: 10px;
+}
+
+#main-content article.node.node-page div.content div.field.field-type-text-with-summary {
+	padding-bottom: 10px;	
+}
+
+form {
+	padding: 0 0 10px 10px;
+}
+
+.profile {
+	padding-left: 10px;
+}
+
+/* Primary Links styling */
+
+header[role="banner"] {
+	background-color: black;
+	border-bottom: medium none;
+	height: 35px;
+	margin-top: -30px;
+}
+
+header[role="banner"] nav ul {
+	margin-top: 11px;
+}
+
+div.header-region a {
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.header-region nav, .header-region div {
+	padding-left: 85px;
+	text-align: center;
+}
+
+nav a {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+nav a.active {
+	color: #76c18b;
+}
+
+nav a:hover {
+	color: #5fda90;
+	text-decoration: none;
+}
+
+/* login and other forms styling */
+
+#main-content nav.tabs {
+	margin-top: 20px;
+}
+
+#main-content nav.tabs ul.tabs.primary li a {
+	color: gray;
+}
+
+/* Home page styling */
+
+body.front.no-sidebars p {
+	padding-bottom: 50px;
+	padding-top: 150px;
+	text-align: center;
+}
+
+body.front.no-sidebars div#main-content {
+	background:	none;
+}
+
+/* Social block styling */
+
+img.socialicons {
+	vertical-align: middle;
+}
+
+#main-content p a img.socialicons {
+	margin: 15px;
+}
+
+/* Email form styling */
+
+#mc_embed_signup {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mc_embed_signup h2 {
+	color: #fff;
+	text-align: center;
+}
+
+#mc_embed_signup .clear {
+	padding-bottom: 65px;
+	text-align: center;
+}
+
+/* Music page styling */
+
+body.not-front.no-sidebars.node-type-page #main-content h1 {
+	text-align: center;
+}
+
+#main-content div.field.field-type-soundcloud {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+#main-content div.field.field-type-soundcloud div.field-items div.field-item {
+	padding-bottom: 10px;
+}
+
+/* Videos page styling */
+
+#main-content .node-page div.field.field-type-video-embed-field {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#main-content .node-page div.video-embed-description {
+	color: #808080;
+	font-size: 1.7em;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+
+#main-content .node-page div.embedded-video {
+	padding-bottom: 5px;
+}
+
+/* Shows page styling */
+
+body.not-front.no-sidebars.page-shows #main-content h1 {
+	text-align: center;
+}
+
+#main-content section.view-id-shows.view-display-id-page {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 {
+	margin: 30px auto 50px;
+    width: 88%;
+}
+
+#main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 thead tr {
+	color: #808080;
+}
+
+#main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 tbody tr td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 thead tr th.views-field.views-field-field-event-date {
+	padding-bottom: 12px;
+	padding-left: 20px;
+}
+
+#main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 tbody tr td.views-field.views-field-field-event-date time {
+	padding-left: 20px;
+}
+
+#main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 tbody tr td.views-field.views-field-field-info-link a {
+	color: #71de9d;
+}
+
+/* Event details styling */
+
+#main-content article.node.node-event div.content div.field.field-type-datetime {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#main-content article.node.node-event div.content div.field.field-type-link-field {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#main-content article.node.node-event div.content div.field.field-type-text {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
