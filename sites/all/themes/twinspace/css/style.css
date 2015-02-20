@@ -11,7 +11,7 @@ body {
 
 div.siteinfo img {
 	margin-left: 70px;
-	margin-top: -16px;
+	margin-top: -15px;
 }
 
 h1 {
@@ -61,12 +61,12 @@ form {
 header[role="banner"] {
 	background-color: black;
 	border-bottom: medium none;
-	height: 35px;
+	height: 40px;
 	margin-top: -30px;
 }
 
 header[role="banner"] nav ul {
-	margin-top: 11px;
+	margin-top: 13px;
 }
 
 div.header-region a {
