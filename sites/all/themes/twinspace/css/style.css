@@ -78,7 +78,7 @@ div.header-region a {
 }
 
 .header-region nav, .header-region div {
-	padding-left: 85px;
+	padding-left: 95px;
 	text-align: center;
 }
 
@@ -217,7 +217,7 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
 }
 
 #main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 tbody tr td.views-field.views-field-field-info-link a {
-	color: #71de9d;
+	color: #00a071;
 }
 
 /* Event details styling */
