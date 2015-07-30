@@ -170,8 +170,8 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
     width: 600px;
 }
 
-player {
-    height: 85%;
+#tracklist .item element.style {
+	height: 150px;
 }
 
 /* Videos page styling */
