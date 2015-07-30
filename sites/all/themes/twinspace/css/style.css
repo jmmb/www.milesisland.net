@@ -159,6 +159,10 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 	padding-bottom: 15px;
 }
 
+#main-content div.field.field-type-soundcloud div.field-items div.field-item {
+	padding-bottom: 10px;
+}
+
 #main-content div.field.field-type-bandcamp {
     height: 950px;
     padding-left: 200px;
@@ -166,8 +170,8 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
     width: 600px;
 }
 
-#main-content div.field.field-type-soundcloud div.field-items div.field-item {
-	padding-bottom: 10px;
+player {
+    height: 85%;
 }
 
 /* Videos page styling */
