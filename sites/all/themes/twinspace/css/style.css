@@ -170,10 +170,6 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
     width: 600px;
 }
 
-#tracklist .item element.style {
-	height: 150px;
-}
-
 /* Videos page styling */
 
 #main-content .node-page div.field.field-type-video-embed-field {
