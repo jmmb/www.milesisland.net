@@ -164,7 +164,7 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 }
 
 #main-content div.field.field-type-bandcamp {
-    height: 950px;
+    padding-bottom: 20px;
     padding-left: 200px;
     padding-top: 25px;
     width: 600px;
