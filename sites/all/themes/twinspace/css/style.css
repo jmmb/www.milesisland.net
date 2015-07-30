@@ -159,6 +159,12 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 	padding-bottom: 15px;
 }
 
+#main-content div.field.field-type-bandcamp {
+	width: 600px;
+	padding-left: 200px;
+	padding-top: 25px;
+}
+
 #main-content div.field.field-type-soundcloud div.field-items div.field-item {
 	padding-bottom: 10px;
 }
