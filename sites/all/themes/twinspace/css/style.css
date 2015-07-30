@@ -160,9 +160,10 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 }
 
 #main-content div.field.field-type-bandcamp {
-	width: 600px;
-	padding-left: 200px;
-	padding-top: 25px;
+    height: 950px;
+    padding-left: 200px;
+    padding-top: 25px;
+    width: 600px;
 }
 
 #main-content div.field.field-type-soundcloud div.field-items div.field-item {
