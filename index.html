@@ -70,6 +70,34 @@
   ga('send', 'pageview');
 
 </script>
+<style>
+  html: {
+    transition: all 1s ease;
+    -wekbit-transition: all 1s ease;
+  }
+</style>
+<script>
+jQuery(document).ready(function() {
+  var images = [
+    "IMG_1155-1920.jpg",
+    "IMG_0993-1920-2.jpg",
+    "IMG_0314-1920.jpg",
+    "IMG_2161-11faded3.jpg"
+  ];
+  // Local
+  // var basePath = "file:///Users/JimB/Sites/www.twin-season.com/sites/default/files/dynamicbg/";
+  // Online
+  var basePath = "sites/default/files/dynamicbg/";
+  var $wrapper = jQuery('html');
+  for(var i in images) {
+    $wrapper.append("<img style='width: 0; height: 0' src='" + basePath + "/" + images[i] + "'>");
+  }
+  setInterval(function() {
+    images.push(images.shift());
+    $wrapper.css('background-image', 'url(' + basePath + '/' + images[0] + ')')
+  }, 30000);
+ });
+</script>
 </head>
 <body class="front no-sidebars" >
 <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
@@ -88,7 +116,7 @@
       <div class="header-region">
       
   
-<nav role="navigation">
+<nav role="navi	gation">
   
       
   <ul><li><a href="index.html" class="active">Home</a></li>
