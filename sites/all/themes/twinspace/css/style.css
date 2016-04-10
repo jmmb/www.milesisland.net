@@ -163,7 +163,7 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 25px;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 
 #main-content div.field.field-type-soundcloud div.field-items div.field-item {
@@ -180,7 +180,7 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 /* Videos page styling */
 
 #main-content .node-page div.field.field-type-video-embed-field {
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 
@@ -204,7 +204,7 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
 
 #main-content section.view-id-shows.view-display-id-page {
 	padding-top: 1px;
-	padding-bottom: 1px;
+	padding-bottom: 25px;
 }
 
 #main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 {
