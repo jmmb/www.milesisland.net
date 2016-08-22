@@ -125,6 +125,15 @@ body.front.no-sidebars div#main-content {
 	background:	none;
 }
 
+#home_intro {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#home_intro h2 {
+	color: #fff;
+}
+
 /* Social block styling */
 
 img.socialicons {
