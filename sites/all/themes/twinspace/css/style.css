@@ -125,7 +125,11 @@ body.front.no-sidebars div#main-content {
 	background:	none;
 }
 
-#home_intro h3 {
+.home_intro (
+
+}
+
+#home_video h3 {
 	color: #fff;
 	text-align: center;
 }
