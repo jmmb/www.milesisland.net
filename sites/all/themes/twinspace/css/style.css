@@ -127,12 +127,11 @@ body.front.no-sidebars div#main-content {
 
 .home_intro (
 	text-align: center;
-	padding-top: 150px;
 }
 
 #home_video h3 {
 	color: #fff;
-	text-align: center;
+	padding-top: 150px;
 }
 
 /* Social block styling */
