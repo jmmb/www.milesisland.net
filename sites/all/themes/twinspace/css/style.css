@@ -116,7 +116,7 @@ nav a:hover {
 /* Home page styling */
 
 body.front.no-sidebars p {
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-top: 10px;
 	text-align: center;
 }
@@ -131,7 +131,7 @@ body.front.no-sidebars div#main-content {
 
 .home_intro h3 {
 	color: #fff;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 #home_video {
