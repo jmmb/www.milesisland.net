@@ -140,6 +140,9 @@ body.front.no-sidebars div#main-content {
 
 #home_video p {
 	color: #fff;
+	padding-bottom: 5px;
+    padding-top: 0;
+    text-transform: uppercase;
 }
 
 /* Social block styling */
