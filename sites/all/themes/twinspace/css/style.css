@@ -125,12 +125,7 @@ body.front.no-sidebars div#main-content {
 	background:	none;
 }
 
-#home_intro {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#home_intro h2 {
+#home_intro h3 {
 	color: #fff;
 }
 
