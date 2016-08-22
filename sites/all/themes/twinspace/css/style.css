@@ -129,9 +129,13 @@ body.front.no-sidebars div#main-content {
 	text-align: center;
 }
 
-#home_video h3 {
+.home_intro h3 {
 	color: #fff;
 	padding-top: 150px;
+}
+
+#home_video {
+	text-align: center;
 }
 
 /* Social block styling */
