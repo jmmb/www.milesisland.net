@@ -138,6 +138,10 @@ body.front.no-sidebars div#main-content {
 	text-align: center;
 }
 
+#home_video p {
+	color: #fff;
+}
+
 /* Social block styling */
 
 img.socialicons {
