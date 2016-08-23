@@ -117,7 +117,7 @@ nav a:hover {
 
 body.front.no-sidebars p {
 	padding-bottom: 5px;
-	padding-top: 10px;
+	padding-top: 15px;
 	text-align: center;
 }
 
@@ -206,7 +206,7 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 
 #main-content .node-page div.video-embed-description {
 	color: #808080;
-	font-size: 1.7em;
+	font-size: 1.4em;
 	padding-top: 30px;
 	padding-bottom: 25px;
 	text-transform: uppercase;
