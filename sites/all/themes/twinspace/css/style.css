@@ -18,7 +18,7 @@ body {
 
 div.siteinfo img {
 	margin-left: 70px;
-	margin-top: -15px;
+	margin-top: -10px;
 }
 
 h1 {
@@ -74,7 +74,7 @@ header[role="banner"] {
 
 header[role="banner"] nav ul {
 	background-color: black;
-	margin-top: 8px;
+	margin-top: 13px;
 	padding: 5px;
 }
 
