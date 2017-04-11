@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-content article.node.node-page div.content div.field.field-type-text-with-summary {
-	padding-bottom: 10px;	
+	padding-bottom: 10px;
 }
 
 form {
@@ -142,7 +142,7 @@ body.front.no-sidebars div#main-content {
 	color: #fff;
 	padding-bottom: 5px;
     padding-top: 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 /* Social block styling */
