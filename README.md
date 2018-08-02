@@ -1,1 +1,1 @@
-gh-pages www.twin-season.com
+gh-pages www.channel-island.com
