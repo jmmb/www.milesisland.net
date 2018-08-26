@@ -1,1 +1,1 @@
-gh-pages www.channel-island.com
+gh-pages www.milesisland.net
