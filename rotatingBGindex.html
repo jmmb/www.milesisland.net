@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="sites/all/themes/mothership/mothership/css/mothership-layout.css">
     <link rel="stylesheet" href="sites/all/themes/mothership/mothership/css/mothership.css">
     <link rel="stylesheet" href="sites/all/themes/twinspace/css/style.css">
-    <style>html{background-image:url('sites/default/files/dynamicbg/DTS_Daze_9-2.jpg');background-repeat:no-repeat;background-attachment:fixed;background-position:center top;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+    <style>html{background-image:url('sites/default/files/dynamicbg/IMG_1155-1920.jpg');background-repeat:no-repeat;background-attachment:fixed;background-position:center top;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 </style> <!--[if lt IE 9]>
     <script src="sites/all/themes/mothership/mothership/js/respond.min.js"></script>    <![endif]-->
     <!--[if lt IE 9]>
@@ -56,21 +56,47 @@
     <script src="misc/drupal.js"></script>
     <script src="sites/all/themes/twinspace/js/script.js"></script>
     <script>jQuery.extend(Drupal.settings, {"basePath":"\/www.twin-season.com\/","pathPrefix":"","ajaxPageState":{"theme":"twinspace","theme_token":"oxcRQKKfuujPouQx1En4-vlqJrnuhbXVuQme2O9Ren0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/twinspace\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/normalize.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-layout.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership.css":1,"sites\/all\/themes\/twinspace\/css\/style.css":1,"0":1}}});</script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125784756-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <style>
+  html: {
+    transition: all 1s ease;
+    -wekbit-transition: all 1s ease;
+  }
+</style> <script>
+jQuery(document).ready(function() {
+  var images = [
+    "IMG_1155-1920.jpg",
+    "IMG_0993-1920-2.jpg",
+    "IMG_0314-1920.jpg",
+    "IMG_2171-2.jpg"
+  ];
+  // Local
+  // var basePath = "file:///Users/JimB/Sites/www.twin-season.com/sites/default/files/dynamicbg/";
+  // Online
+  var basePath = "sites/default/files/dynamicbg/";
+  var $wrapper = jQuery('html');
+  for(var i in images) {
+    $wrapper.append("<img style='width: 0; height: 0' src='" + basePath + "/" + images[i] + "'>");
+  }
+  setInterval(function() {
+    images.push(images.shift());
+    $wrapper.css('background-image', 'url(' + basePath + '/' + images[0] + ')')
+  }, 11000);
+ });
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125784756-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-125784756-1');
-    </script>
- </head>
+  gtag('config', 'UA-125784756-1');
+</script>
+</head>
   <body class="front no-sidebars"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
     <header role="banner">
       <div class="siteinfo">
-        <figure> <a href="index.html" title="Home" rel="home">
-          <img src="sites/default/files/MI_rough-logo-1.png" alt="Home">
+        <figure> <a href="index.html" title="Home" rel="home"> <img src="sites/default/files/MI_rough-logo-1.png" alt="Home">
           </a> </figure>
       </div>
       <div class="header-region">
@@ -93,7 +119,7 @@
         <div id="home_video"> <a href="https://www.youtube.com/embed/ZH8LBCKqV2U?autoplay=1">
             <img src="sites/default/files/imce/TS-LV-Trailer-Thumb-1.jpg" alt="YouTube video thumbnail">
           </a>
-          <p>(Click to Watch the Trailer)</p>
+          <p>[Click to Watch the Trailer]</p>
         </div>
         <p> <a href="https://twitter.com/miles1sland" target="_blank"><img class="socialicons" src="sites/default/files/imce/Twitter_logo_blue.png"
             alt="Twitter"
