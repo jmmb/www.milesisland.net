@@ -127,12 +127,13 @@ body.front.no-sidebars div#main-content {
 }
 
 .home_intro {
+  font-size: 18px;
 	text-align: center;
 }
 
 .home_intro h3 {
 	color: #fff;
-	padding-top: 100px;
+	padding-top: 60px;
 }
 
 #home_video {
