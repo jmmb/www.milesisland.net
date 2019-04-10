@@ -23,7 +23,7 @@ div.siteinfo img {
 }
 
 h1 {
-	font-size: 1.7em;
+	font-size: 1.6em;
 	margin: 0 0;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-content h1 {
-	padding-top: 30px;
+	padding-top: 0px;
 }
 
 #main-content p {
