@@ -202,7 +202,7 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 /* Videos page styling */
 
 #main-content .node-page div.field.field-type-video-embed-field {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -215,7 +215,7 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 }
 
 #main-content .node-page div.embedded-video {
-	padding-bottom: 5px;
+	padding-bottom: 25px;
 }
 
 /* Shows page styling */
