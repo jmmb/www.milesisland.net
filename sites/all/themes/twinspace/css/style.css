@@ -282,3 +282,9 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
   padding-bottom: 10px;
 	padding-left: 10px;
 }
+
+/* About details styling */
+
+.about-image {
+  margin: 25px 10px;
+}
