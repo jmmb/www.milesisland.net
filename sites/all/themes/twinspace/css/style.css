@@ -229,13 +229,6 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
 	padding-top: 1px;
 }
 
-#main-content section.view-id-about.view-display-id-page {
-  padding-bottom: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 1px;
-}
-
 #main-content section.view-id-shows.view-display-id-page table.views-table.cols-4 {
 	margin: 30px auto 50px;
   width: 88%;
@@ -283,8 +276,15 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
 	padding-left: 10px;
 }
 
-/* About details styling */
+/* About page styling */
 
 .about-image {
   margin-left: 20px;
+}
+
+#main-content section.view-id-about.view-display-id-page {
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 1px;
 }
