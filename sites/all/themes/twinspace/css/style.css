@@ -275,6 +275,14 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
 	padding-left: 10px;
 }
 
+span.date-display-start {
+  font-weight: bold;
+}
+
+span.date-display-end {
+  font-weight: bold;
+}
+
 /* About page styling */
 
 .about-image {
