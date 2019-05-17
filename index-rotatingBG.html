@@ -30,16 +30,19 @@
 @import url("modules/system/system.menus.css");
 @import url("modules/system/system.messages.css");
 @import url("modules/system/system.theme.css");
-</style> <style>
+</style>
+<style>
 @import url("sites/all/modules/contrib/date/date_api/date.css");
-</style> <link rel="stylesheet" href="sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css">
-    <style>
+</style>
+<link rel="stylesheet" href="sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css">
+<style>
 @import url("modules/field/theme/field.css");
 @import url("modules/node/node.css");
 @import url("modules/search/search.css");
 @import url("modules/user/user.css");
 @import url("sites/all/modules/contrib/views/css/views.css");
-</style> <style>
+</style>
+<style>
 @import url("sites/all/modules/contrib/ctools/css/ctools.css");
 </style> <link rel="stylesheet" href="sites/all/themes/mothership/mothership/css/normalize.css">
     <link rel="stylesheet" href="sites/all/themes/mothership/mothership/css/mothership-default.css">
@@ -57,46 +60,48 @@
     <script src="sites/all/themes/twinspace/js/script.js"></script>
     <script>jQuery.extend(Drupal.settings, {"basePath":"\/www.milesisland.net\/","pathPrefix":"","ajaxPageState":{"theme":"twinspace","theme_token":"oxcRQKKfuujPouQx1En4-vlqJrnuhbXVuQme2O9Ren0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/twinspace\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/normalize.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-layout.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership.css":1,"sites\/all\/themes\/twinspace\/css\/style.css":1,"0":1}}});</script>
   <style>
-  html: {
-    transition: all 1s ease;
-    -wekbit-transition: all 1s ease;
-  }
-</style> <script>
-jQuery(document).ready(function() {
-  var images = [
-    "IMG_1155-1920.jpg",
-    "IMG_0993-1920-2.jpg",
-    "IMG_0314-1920.jpg",
-    "IMG_2171-2.jpg"
-  ];
+    html: {
+      transition: all 1s ease;
+      -wekbit-transition: all 1s ease;
+      }
+  </style>
+  <script>
+    jQuery(document).ready(function() {
+      var images = [
+        "IMG_1155-1920.jpg",
+        "IMG_0993-1920-2.jpg",
+        "IMG_0314-1920.jpg",
+        "IMG_2171-2.jpg"
+      ];
   // Local
   // var basePath = "file:///Users/JimB/Sites/www.twin-season.com/sites/default/files/dynamicbg/";
   // Online
-  var basePath = "sites/default/files/dynamicbg/";
-  var $wrapper = jQuery('html');
-  for(var i in images) {
-    $wrapper.append("<img style='width: 0; height: 0' src='" + basePath + "/" + images[i] + "'>");
-  }
-  setInterval(function() {
-    images.push(images.shift());
-    $wrapper.css('background-image', 'url(' + basePath + '/' + images[0] + ')')
-  }, 11000);
- });
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125784756-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    var basePath = "sites/default/files/dynamicbg/";
+    var $wrapper = jQuery('html');
+    for(var i in images) {
+      $wrapper.append("<img style='width: 0; height: 0' src='" + basePath + "/" + images[i] + "'>");
+    }
+    setInterval(function() {
+      images.push(images.shift());
+      $wrapper.css('background-image', 'url(' + basePath + '/' + images[0] + ')')
+    }, 11000);
+  });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125784756-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-125784756-1');
-</script>
-</head>
+    gtag('config', 'UA-125784756-1');
+  </script>
+  </head>
   <body class="front no-sidebars"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
     <header role="banner">
       <div class="siteinfo">
-        <figure> <a href="index.html" title="Home" rel="home"> <img src="sites/default/files/logos/MilesIsland_LogoHorz_BW.png" alt="Home">
+        <figure> <a href="index.html" title="Home" rel="home">
+          <img src="sites/default/files/logos/MilesIsland_LogoHorz_BW.png" alt="Home">
           </a> </figure>
       </div>
       <div class="header-region">
@@ -144,6 +149,7 @@ jQuery(document).ready(function() {
         </p>
        </div> <!-- /main-->
       </div> <!-- /page-->
-    <footer role="contentinfo"> </footer>
+    <footer role="contentinfo">
+    </footer>
   </body>
 </html>

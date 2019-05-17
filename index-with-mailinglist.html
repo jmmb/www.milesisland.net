@@ -30,16 +30,19 @@
 @import url("modules/system/system.menus.css");
 @import url("modules/system/system.messages.css");
 @import url("modules/system/system.theme.css");
-</style> <style>
+</style>
+<style>
 @import url("sites/all/modules/contrib/date/date_api/date.css");
-</style> <link rel="stylesheet" href="sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css">
-    <style>
+</style>
+<link rel="stylesheet" href="sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css">
+<style>
 @import url("modules/field/theme/field.css");
 @import url("modules/node/node.css");
 @import url("modules/search/search.css");
 @import url("modules/user/user.css");
 @import url("sites/all/modules/contrib/views/css/views.css");
-</style> <style>
+</style>
+<style>
 @import url("sites/all/modules/contrib/ctools/css/ctools.css");
 </style> <link rel="stylesheet" href="sites/all/themes/mothership/mothership/css/normalize.css">
     <link rel="stylesheet" href="sites/all/themes/mothership/mothership/css/mothership-default.css">
@@ -57,67 +60,69 @@
     <script src="sites/all/themes/twinspace/js/script.js"></script>
     <script>jQuery.extend(Drupal.settings, {"basePath":"\/www.milesisland.net\/","pathPrefix":"","ajaxPageState":{"theme":"twinspace","theme_token":"oxcRQKKfuujPouQx1En4-vlqJrnuhbXVuQme2O9Ren0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/twinspace\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/normalize.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-layout.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership.css":1,"sites\/all\/themes\/twinspace\/css\/style.css":1,"0":1}}});</script>
   <style>
-  html: {
-    transition: all 1s ease;
-    -wekbit-transition: all 1s ease;
-  }
-</style> <script>
-jQuery(document).ready(function() {
-  var images = [
-    "IMG_1155-1920.jpg",
-    "IMG_0993-1920-2.jpg",
-    "IMG_0314-1920.jpg",
-    "IMG_2171-2.jpg"
-  ];
+    html: {
+      transition: all 1s ease;
+      -wekbit-transition: all 1s ease;
+      }
+  </style>
+  <script>
+    jQuery(document).ready(function() {
+      var images = [
+        "IMG_1155-1920.jpg",
+        "IMG_0993-1920-2.jpg",
+        "IMG_0314-1920.jpg",
+        "IMG_2171-2.jpg"
+      ];
   // Local
   // var basePath = "file:///Users/JimB/Sites/www.twin-season.com/sites/default/files/dynamicbg/";
   // Online
-  var basePath = "sites/default/files/dynamicbg/";
-  var $wrapper = jQuery('html');
-  for(var i in images) {
-    $wrapper.append("<img style='width: 0; height: 0' src='" + basePath + "/" + images[i] + "'>");
-  }
-  setInterval(function() {
-    images.push(images.shift());
-    $wrapper.css('background-image', 'url(' + basePath + '/' + images[0] + ')')
-  }, 11000);
- });
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125784756-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    var basePath = "sites/default/files/dynamicbg/";
+    var $wrapper = jQuery('html');
+    for(var i in images) {
+      $wrapper.append("<img style='width: 0; height: 0' src='" + basePath + "/" + images[i] + "'>");
+    }
+    setInterval(function() {
+      images.push(images.shift());
+      $wrapper.css('background-image', 'url(' + basePath + '/' + images[0] + ')')
+    }, 11000);
+  });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125784756-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-125784756-1');
-</script>
-</head>
-  <body class="front no-sidebars"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-    <header role="banner">
-      <div class="siteinfo">
-        <figure> <a href="index.html" title="Home" rel="home"> <img src="sites/default/files/logos/MilesIsland_LogoHorz_BW.png" alt="Home">
+    gtag('config', 'UA-125784756-1');
+  </script>
+  </head>
+    <body class="front no-sidebars"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+      <header role="banner">
+        <div class="siteinfo">
+          <figure> <a href="index.html" title="Home" rel="home">
+            <img src="sites/default/files/logos/MilesIsland_LogoHorz_BW.png" alt="Home">
           </a> </figure>
-      </div>
-      <div class="header-region">
-        <nav role="navigation">
-          <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="shows.html">Shows</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
+        <div class="header-region">
+          <nav role="navigation">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="videos.html">Videos</a></li>
+              <li><a href="shows.html">Shows</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     <div class="page">
       <div role="main" id="main-content">
         <div class="home_intro">
           <h3>ALBUM B-SIDES ARE NOW RELEASED</h3>
         </div>
         <div id="home_video"> <a href="https://www.youtube.com/embed/ZH8LBCKqV2U?autoplay=1">
-            <img src="sites/default/files/imce/TS-LV-Trailer-Thumb-1.jpg" alt="YouTube video thumbnail">
+            <img src="sites/default/files/imce/TS-LV-Trailer-Thumb-1.jpg" alt="YouTube video thumbnail" height="400" width="600">
           </a>
           <p>[Click to Watch the Trailer]</p>
         </div>
@@ -147,21 +152,21 @@ jQuery(document).ready(function() {
           rel="stylesheet"
           type="text/css">
         <style type="text/css">
-<!--/*--><![CDATA[/* ><!--*/
+        <!--/*--><![CDATA[/* ><!--*/
 
-	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif;  width:333px;}
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	       #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif;  width:333px;}
+	        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
-/*--><!]]>*/
-</style><div id="mc_embed_signup">
-          <form action="http://twin-season.us9.list-manage.com/subscribe/post?u=39d54a0fe19c2c170a4af9427&amp;id=699673fd39"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate="">
+        /*--><!]]>*/
+        </style><div id="mc_embed_signup">
+            <form action="http://twin-season.us9.list-manage.com/subscribe/post?u=39d54a0fe19c2c170a4af9427&amp;id=699673fd39"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate="">
             <div id="mc_embed_signup_scroll">
               <h2>add e-mail for updates</h2>
               <div class="mc-field-group"> <input value="" name="EMAIL" class="required email"
@@ -181,10 +186,10 @@ jQuery(document).ready(function() {
                   type="submit"></div>
             </div>
           </form>
-        </div>
-        <!--End mc_embed_signup--> </div>
-      <!-- /main--> </div>
-    <!-- /page-->
-    <footer role="contentinfo"> </footer>
+          </div> <!--End mc_embed_signup-->
+        </div> <!-- /main-->
+      </div> <!-- /page-->
+    <footer role="contentinfo">
+    </footer>
   </body>
 </html>
