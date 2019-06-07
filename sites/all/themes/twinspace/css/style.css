@@ -256,6 +256,29 @@ body.not-front.no-sidebars.page-shows #main-content h1 {
 	color: #00a071;
 }
 
+.past-shows {
+  font-size: 0.95em;
+  font-style: italic;
+  margin-top: -15px;
+  text-align: center;
+}
+
+a.past-shows:link {
+  color: #808080;
+}
+
+a.past-shows:visited {
+  color: #808080;
+}
+
+a.past-shows:hover {
+  color: #808080;
+}
+
+a.past-shows:active {
+  color: #808080;
+}
+
 /* Event details styling */
 
 #main-content article.node.node-event div.content div.field.field-type-datetime {
