@@ -199,20 +199,20 @@ body.not-front.no-sidebars.node-type-page #main-content h1 {
 /* Videos page styling */
 
 #main-content .node-page div.field.field-type-video-embed-field {
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	text-align: center;
 }
 
 #main-content .node-page div.video-embed-description {
 	color: #808080;
   font-size: 1.1em;
-  padding-bottom: 25px;
-  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   text-transform: uppercase;
 }
 
 #main-content .node-page div.embedded-video {
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 
 /* Shows page styling */
