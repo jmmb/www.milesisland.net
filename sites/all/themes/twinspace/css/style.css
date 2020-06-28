@@ -132,7 +132,7 @@ body.front.no-sidebars div#main-content {
 }
 
 .home_intro h3 {
-	color: #fff;
+	color: darkred;
 	padding-top: 60px;
 }
 
@@ -141,7 +141,7 @@ body.front.no-sidebars div#main-content {
 }
 
 #home_video p {
-	color: #fff;
+	color: darkred;
 	padding-bottom: 5px;
   padding-top: 0;
   text-transform: lowercase;
