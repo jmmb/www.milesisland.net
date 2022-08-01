@@ -17,9 +17,9 @@ body {
 }
 
 div.siteinfo img {
-  height: 75px;
-	margin-left: 70px;
-  margin-top: -20px;
+    height: 49px;
+    margin-left: 10px;
+    margin-top: -8px;
 }
 
 h1 {
@@ -74,9 +74,9 @@ header[role="banner"] {
 }
 
 header[role="banner"] nav ul {
-	background-color: black;
-	margin-top: 13px;
-	padding: 6px;
+  background-color: black;
+  margin-top: 25px;
+  padding: 8px;
 }
 
 div.header-region a {
