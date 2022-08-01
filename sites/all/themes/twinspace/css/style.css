@@ -67,10 +67,10 @@ form {
 /* Primary Links styling */
 
 header[role="banner"] {
-	background-color: transparent;
-	border-bottom: medium none;
-	height: 50px;
-	margin-top: -30px;
+  background-color: transparent;
+  border-bottom: medium none;
+  height: 67px;
+  margin-top: -30px;
 }
 
 header[role="banner"] nav ul {
