@@ -76,7 +76,12 @@ header[role="banner"] {
 header[role="banner"] nav ul {
   background-color: black;
   margin-top: 25px;
-  padding: 8px;
+  padding: 5px;
+}
+
+header[role="banner"] nav li {
+  display: inline-block;
+  padding: 5px;
 }
 
 div.header-region a {
