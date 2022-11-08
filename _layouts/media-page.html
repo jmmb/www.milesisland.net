@@ -1,0 +1,24 @@
+---
+layout: "default"
+body_class: "not-front no-sidebars node-type-page"
+---
+<div class="page">
+  <div role="main" id="main-content">
+  	<p>&nbsp;</p>
+
+    <nav rel="navigation" class="breadcrumb">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <!-- node.tpl.php -->
+
+    <section class="node node-page">
+      <span property="dc:title" content="{{ page.title }}" class="rdf-meta element-hidden"></span>
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </section>
+  </div><!-- /main-->
+</div><!-- /page-->

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      {%- if page.title -%}
+        {{ page.title | append: " | " | append: site.title }}
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+    </title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}"><!-- Keywords are ignored by Google, but used by lesser-known engines -->
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="shortlink" href="{{ page.url | absolute_url }}">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <style>
+      html {
+        background-image: url("{{ '/assets/img/DTS_La-Calma-3.jpg' | relative_url }}");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    </style>
+
+    {%- if page.rotating_images.size > 0 -%}
+      {%- include rotating_images.liquid -%}
+    {%- endif -%}
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.gtag_id }}');
+    </script>
+  </head>
+
+  <body class="{{ layout.body_class | default: 'front no-sidebars' }}">
+    <a href="#main-content" class="element-invisible element-focusable">
+      Skip to main content
+    </a>
+
+    <header role="banner">
+      <div class="siteinfo">
+        <figure>
+          <a href="{{ 'index.html' | relative_url }}" title="Home" rel="home">
+            <img src="{{ '/assets/img/MilesIsland_LogoHorz_BW_Trans.png' | relative_url }}" alt="Home">
+          </a>
+        </figure>
+      </div>
+
+      <div class="header-region">
+        <nav role="navigation">
+          <ul>
+            {%- for item in site.data.navigation %}
+              <li>
+                <a href="{{ item.path | relative_url }}" class="
+                  {%- if item.path == 'shows.html' -%}
+                    {%- if page.layout == 'shows' or page.layout == 'event' -%}
+                      active
+                    {%- endif -%}
+                  {%- else -%}
+                    {%- assign item_path = item.path | split: '.' | first -%}
+                    {%- assign current_path = page.path | split: '.' | first -%}
+
+                    {%-if item_path == current_path -%}
+                      active
+                    {%- endif -%}
+                  {%- endif -%}
+                ">
+                  {{ item.label }}
+                </a>
+              </li>
+            {%- endfor %}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    {{ content }}
+
+    <footer role="contentinfo"></footer>
+  </body>
+</html>

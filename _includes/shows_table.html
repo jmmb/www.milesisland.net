@@ -1,0 +1,62 @@
+<table class="views-table cols-4">
+  <thead>
+    <tr>
+      <th class="views-field views-field-field-event-date">
+        Date
+      </th>
+
+      <th class="views-field views-field-field-event-venue">
+        Venue
+      </th>
+
+      <th class="views-field views-field-field-event-city">
+        City
+      </th>
+
+      <th class="views-field views-field-field-info-link"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for show in include.shows %}
+      {%- capture row_position -%}
+        {%- if include.shows.first == show -%}
+          views-row-first
+        {%- elsif include.shows.last == show -%}
+          views-row-last
+        {%- endif -%}
+      {%- endcapture -%}
+
+      <tr class="{% cycle 'odd', 'even' %} {{ row_position }}">
+        <td class="views-field views-field-field-event-date">
+          <time property="dc:date" datetime="{{ show.date }}">
+            <strong>{{ show.date | date: "%A %B %e, %Y" }}</strong>
+            @ {{ show.start_time }} {{ show.start_am_pm }}
+          </time>
+        </td>
+
+        <td class="views-field views-field-field-event-venue">
+          <a href="{{ show.venue_website }}" target="_blank">
+            {{ show.venue_name }}
+          </a>
+        </td>
+
+        <td class="views-field views-field-field-event-city">
+          {{ show.city }}
+        </td>
+
+        <td class="views-field views-field-field-info-link">
+          <a href="{{ show.url }}">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="views-field-field-info-icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+            </svg>
+
+            <span>
+              INFO
+            </span>
+          </a>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

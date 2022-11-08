@@ -1,0 +1,34 @@
+url: "https://www.milesisland.net"
+baseurl: ""
+title: "Miles Island"
+description: + + + The MILES ISLAND Website Experience + + +
+keywords: >
+  Jim Bjorklun,Miles Island,Alternative Music,indie dance,alternative dance,
+  psychedelic pop,psych pop,dance rock,Minnesota,Twin Cities music
+gtag_id: "UA-125784756-1"
+
+collections:
+  shows_in_future:
+    output: true
+  shows_in_past:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "shows_in_future"
+    values:
+      layout: "event"
+      permalink: shows/:title:output_ext
+  - scope:
+      path: ""
+      type: "shows_in_past"
+    values:
+      layout: "event"
+      permalink: shows/:title:output_ext
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md

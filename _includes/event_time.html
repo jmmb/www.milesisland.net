@@ -1,0 +1,23 @@
+<time datetime="{{ page.date | date: '%F' }}">
+  {{ page.date | date: "%A %B %e, %Y" }}
+
+  -->
+
+  Playing
+
+  <span class="date-display-start">
+    {{ page.start_time }}
+  </span>
+
+  {% unless page.start_am_pm == page.end_am_pm %}
+    {{ page.start_am_pm }}
+  {% endunless %}
+
+  to
+
+  <span class="date-display-end">
+    {{ page.end_time }}
+  </span>
+
+  {{ page.end_am_pm }}
+</time>

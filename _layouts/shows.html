@@ -1,0 +1,44 @@
+---
+layout: "default"
+body_class: "not-front no-sidebars page-shows"
+---
+
+{% if page.mode == 'future' %}
+  {% assign page_shows = site.shows_in_future | sort: 'date' %}
+  {% assign other_shows = site.shows_in_past %}
+  {% assign other_shows_path = 'past-shows.html' %}
+  {% assign other_shows_message = 'View Previous Shows' %}
+  {% assign empty_message = 'no shows currently scheduled' %}
+{% elsif page.mode == 'past' %}
+  {% assign page_shows = site.shows_in_past | sort: 'date' | reverse %}
+  {% assign other_shows = site.shows_in_future %}
+  {% assign other_shows_path = 'shows.html' %}
+  {% assign other_shows_message = 'View Upcoming Shows' %}
+  {% assign empty_message = 'no shows to show' %}
+{% endif %}
+
+<div class="page">
+  <div role="main" id="main-content">
+    <p>&nbsp;</p>
+    <nav rel="navigation" class="breadcrumb"> <ul><li><a href="index.html">Home</a></li></ul>
+    </nav>
+
+    <section class="view-id-shows view-display-id-page view-dom-id-7a3660c5869066bf742af97278e408f2">
+      {% if page_shows.size > 0 %}
+        <h1>{{ page.title }}</h1>
+
+        {% include shows_table.html shows=page_shows %}
+      {% else %}
+        {% include shows_empty.html message=empty_message %}
+      {% endif %}
+
+      {% if other_shows.size > 0 %}
+        <p class="past-shows">
+          <a href="{{ other_shows_path | relative_url }}" class="past-shows">
+            {{ other_shows_message }}
+          </a>
+        </p>
+      {% endif %}
+    </section>
+  </div><!-- /main-->
+</div><!-- /page-->

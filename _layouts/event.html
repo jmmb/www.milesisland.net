@@ -1,0 +1,55 @@
+---
+layout: "default"
+body_class: "not-front no-sidebars node-type-event"
+---
+
+<div class="page">
+  <div role="main" id="main-content">
+    <p>&nbsp;</p>
+
+    <h1>{{ page.title }}</h1>
+
+    <nav rel="navigation" class="breadcrumb"><ul><li><a href="index.html">Home</a></li></ul></nav>
+    <!-- node.tpl.php -->
+
+    <article class="node node-event " about="event-eagles-shadewald.html" typeof="sioc:Item foaf:Document" role="article">
+      <span property="dc:title" content="Eagles #34 Shadewald Hall" class="rdf-meta element-hidden"></span>
+
+      <div class="content">
+        <div class="field field-type-text-with-summary">
+          {{ page.content }}
+        </div>
+
+        <div class="field field-type-datetime">
+          {% include event_time.html %}
+        </div>
+
+        {%- if page.facebook_event_link %}
+          <div class="field field-type-link-field">
+            <a href="{{ page.facebook_event_link }}" target="_blank">
+              Facebook Event
+            </a>
+          </div>
+        {%- endif %}
+
+        {%- if page.venue_website %}
+          <div class="field field-type-link-field">
+            <a href="{{ page.venue_website }}" target="_blank">
+              {{ page.venue_description | default: page.venue_name }}
+            </a>
+          </div>
+        {%- endif %}
+
+        <div class="field field-type-text">
+          {{ page.city }}, {{ page.country }}
+        </div>
+
+        {%- if page.google_maps_iframe %}
+          <div class="field field-type-text">
+            {{ page.google_maps_iframe }}
+          </div>
+        {%- endif %}
+      </div>
+    </article>
+  </div><!-- /main-->
+</div><!-- /page-->

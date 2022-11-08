@@ -1,0 +1,26 @@
+---
+---
+
+@import 'system.base';
+@import 'system.theme';
+
+@import 'normalize';
+@import 'mothership-default';
+@import 'mothership-layout';
+@import 'mothership';
+@import 'twinspace';
+
+div.siteinfo img {
+	height: 48px;
+  margin-left: 10px;
+  margin-top: -7px;
+	object-fit: contain;
+}
+
+.home_intro h3 {
+	color: darkred;
+}
+
+#home_video p {
+	color: darkred;
+}

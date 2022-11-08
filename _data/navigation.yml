@@ -1,0 +1,14 @@
+- label: Home
+  path: index.html
+
+- label: Music
+  path: music.html
+
+- label: Videos
+  path: videos.html
+
+- label: Shows
+  path: shows.html
+
+- label: About
+  path: about.html

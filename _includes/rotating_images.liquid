@@ -1,0 +1,23 @@
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.once.js"></script>
+
+<script>
+  jQuery(document).ready(function() {
+    var images = [];
+
+    {% for image in page.rotating_images %}
+      images.push("{{ 'assets/img/' | append: image | relative_url }}")
+    {% endfor %}
+
+    var $wrapper = jQuery('html');
+
+    for(var i in images) {
+      $wrapper.append("<img style='width: 0; height: 0' src='" + images[i] + "'>");
+    }
+
+    setInterval( function() {
+      images.push(images.shift());
+      $wrapper.css('background-image', 'url(' + images[0] + ')');
+    }, 11000);
+  });
+</script>
