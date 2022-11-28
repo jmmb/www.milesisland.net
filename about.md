@@ -4,7 +4,7 @@ title: "About"
 ---
 
 **Miles Island** is a music project from Minneapolis songwriter and
-multi-instrumentalist Jim Bjorklun. Its sound evokes the solitary winters and
+multi-instrumentalist Jim Bjorklun. The sound evokes the solitary winters and
 hazy summers of Minnesota.
 
 It began years earlier, when Jim was living on a lake and playing in various
