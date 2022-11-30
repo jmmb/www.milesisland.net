@@ -2,40 +2,40 @@
   url: https://twitter.com/miles1sland
   img:
     path: assets/img/Twitter_logo_blue.png
-    height: 50
-    width: 60
+    height: 40
+    width: 50
 
 - name: Facebook
   url: https://www.facebook.com/miles1sland
   img:
     path: assets/img/FB-f-Logo__blue_512.png
-    height: 50
-    width: 50
+    height: 40
+    width: 40
 
 - name: YouTube
   url: https://www.youtube.com/channel/UCcZCtILSMtuuwTXv7GUovjQ
   img:
     path: assets/img/YouTube_light_color_icon.png
-    height: 50
-    width: 71
+    height: 40
+    width: 57
 
 - name: Instagram
   url: https://www.instagram.com/miles1sland/
   img:
     path: assets/img/Instagram_AppIcon_Aug2017.png
-    height: 50
-    width: 50
+    height: 40
+    width: 40
 
 - name: SoundCloud
   url: https://soundcloud.com/miles1sland
   img:
     path: assets/img/soundcloud_icon_512.png
-    height: 50
-    width: 50
+    height: 40
+    width: 40
 
 - name: Bandcamp
   url: https://miles1sland.bandcamp.com/
   img:
     path: assets/img/bandcamp-button-bc-circle-green-512.png
-    height: 50
-    width: 50
+    height: 40
+    width: 40
