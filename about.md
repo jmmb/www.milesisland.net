@@ -34,4 +34,4 @@ released as the standalone single
 "[Who Are You?](https://miles1sland.bandcamp.com/album/who-are-you-single)".
 
 ## Contact
-Booking / Inquiries: info [@] milesisland.net
+Booking / Inquiries: info @ milesisland.net
