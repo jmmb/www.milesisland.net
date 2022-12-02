@@ -3,11 +3,11 @@ layout: "about"
 title: "About"
 ---
 
-**Miles Island** is a music project from Minneapolis songwriter and
-multi-instrumentalist Jim Bjorklun. The sound evokes the solitary winters and
+**Miles Island** is an alternative music project from Minneapolis songwriter and
+multi-instrumentalist Jim Bjorklun. It also evokes the solitary winters and
 hazy summers of Minnesota.
 
-It began years earlier, when Jim was living on a lake and playing in various
+The story begins years earlier, when Jim was living on a lake and playing in various
 bands. He started feeling the need to create music as well, and gradually
 collected a string of song ideas and lyrics.
 
@@ -34,4 +34,4 @@ released as the standalone single
 "[Who Are You?](https://miles1sland.bandcamp.com/album/who-are-you-single)".
 
 ## Contact
-Booking / Inquiries: info @ milesisland.net
+Booking | Inquiries: info @ milesisland.net
