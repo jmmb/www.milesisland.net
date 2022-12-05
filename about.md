@@ -3,7 +3,7 @@ layout: "about"
 title: "About"
 ---
 
-**Miles Island** is an alternative music project from Minneapolis songwriter and
+**Miles Island** is an alternative pop music project from Minneapolis songwriter and
 multi-instrumentalist Jim Bjorklun. It also evokes the solitary winters and
 hazy summers of Minnesota.
 
@@ -25,13 +25,13 @@ mix of alternative rock and dance music, as refracted through the lens of
 psychedelic pop.
 
 Ten of these songs became the debut album
-“[Right As Rain](https://miles1sland.bandcamp.com/album/right-as-rain)”,
+“[Right As Rain](https://miles1sland.bandcamp.com/album/right-as-rain){:target="_blank"}”,
 which was released June 21, 2019. It's a highly personal record, reflecting the
 peaks and valleys of a precarious time.
 
 On June 26, 2020, two more songs from this initial batch were polished and
 released as the standalone single
-"[Who Are You?](https://miles1sland.bandcamp.com/album/who-are-you-single)".
+"[Who Are You?](https://miles1sland.bandcamp.com/album/who-are-you-single){:target="_blank"}".
 
 ## Contact
 Booking | Inquiries: info @ milesisland.net
