@@ -20,7 +20,7 @@
     width: 57
 
 - name: Instagram
-  url: https://www.instagram.com/miles1sland/
+  url: https://www.instagram.com/miles1sland
   img:
     path: assets/img/Instagram_AppIcon_Aug2017.png
     height: 40
@@ -34,14 +34,14 @@
     width: 40
 
 - name: Tumblr
-  url: https://miles1sland.tumblr.com/
+  url: https://miles1sland.tumblr.com
   img:
     path: assets/img/Tumblr_Logo_Blue.png
     height: 40
     width: 40
 
 - name: Bandcamp
-  url: https://miles1sland.bandcamp.com/
+  url: https://miles1sland.bandcamp.com
   img:
     path: assets/img/bandcamp-button-bc-circle-green-512.png
     height: 40
