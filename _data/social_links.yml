@@ -33,6 +33,13 @@
     height: 40
     width: 40
 
+- name: Tumblr
+  url: https://miles1sland.tumblr.com/
+  img:
+    path: assets/img/Tumblr_Logo_Blue.png
+    height: 40
+    width: 40
+
 - name: Bandcamp
   url: https://miles1sland.bandcamp.com/
   img:
